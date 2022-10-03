@@ -13,6 +13,6 @@ object Common {
     .add("to", StringType)
     .add("date", DateType)
 
-  val FLIGHT_DATA_FILE = "data/flightData.csv"
-  val PASSENGER_DATA_FILE = "data/passengers.csv"
+  val FLIGHT_DATA_FILE = "data/flightData.csv.gz"
+  val PASSENGER_DATA_FILE = "data/passengers.csv.gz"
 }
